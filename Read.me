@@ -1,0 +1,11 @@
+This PowerShell script must run with domain admin credentials from a DC or server/computer with RSAT tools 
+installed because the script uses the PowerShell AD component.
+
+What does the script do?
+- It scans all OU's in the domain and let the user choose which OU to scan for computers
+- You can choose the amount of days to go back in time to check (e.q. 7 is check updates installed in last 7 days)
+- When you run the script a txtfile is created on the desktop with report. When you see a host with no lines beneath
+  no updates are installed.
+- Errors (e.q. RPC) are also logged.
+
+Paul Witkamp 29-03-2017
