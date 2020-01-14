@@ -1,4 +1,6 @@
-﻿#Click OOBE until you can connect to WiFi, after connection is made go to the next step.
+#Created by Paul Witkamp on 14-01-2020. Info: info@witkamp-consultancy.nl
+#
+#Click OOBE until you can connect to WiFi, after connection is made go to the next step.
 #During OOBE click SHIFT-F10, this will open a command window.
 #Type PowerShell, this will switch to powershell context in the same window.
 #Set Executionpolicy to unrestricted, after boot this setting will be back to normal. To do this enter this command:
